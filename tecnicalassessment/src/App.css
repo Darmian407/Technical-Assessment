@@ -1,0 +1,72 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App{
+  background: rgb(86,33,194);
+  background: linear-gradient(157deg, rgba(86,33,194,1) 0%, rgba(184,66,211,1) 100%);
+  min-height: 100vh;
+  display: block;
+  padding-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+
+.navimg{
+  width: 90%;
+}
+
+.Titles{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.buttonimg{
+  width: 65%;
+}
+
+.products{
+  padding-top: 40px;
+  background-image: "url(/https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d696587-a049-4679-8158-23eb9c0d534a/Social_Media_icons.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T121738Z&X-Amz-Expires=86400&X-Amz-Signature=f010ec1861d3741e87e7d6b2f3dda586dc7b5fb6eeb5def49d6fdf7ed3d00359&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Social%2520Media%2520icons%2520%252F%2520all%2520grouped.png%22&x-id=GetObject)";
+  width: 100%;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+.productleft{
+  /* height: 190px; */
+  width: 32%;
+  align-items: flex-start;
+}
+
+.productmiddle{
+  /* height: 210px; */
+  width: 36%;
+  align-items: center;
+}
+
+.productright{
+  /* height: 190px; */
+  width: 32%;
+  align-items: flex-end;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

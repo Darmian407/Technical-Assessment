@@ -1,0 +1,65 @@
+.Event{
+    background: white;
+    min-height: 100vh;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(86,33,194);;
+    text-align: center;
+  }
+
+  .eventimg {
+      width: 100%;
+  }
+
+
+  .title{
+      display: flex;
+      margin-right: 20%;
+  }
+  .h1 {
+    align-items: flex-start;
+  }
+
+  .products{
+    padding-top: 0px;
+    background-image: "url(/https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d696587-a049-4679-8158-23eb9c0d534a/Social_Media_icons.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220218T121738Z&X-Amz-Expires=86400&X-Amz-Signature=f010ec1861d3741e87e7d6b2f3dda586dc7b5fb6eeb5def49d6fdf7ed3d00359&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Social%2520Media%2520icons%2520%252F%2520all%2520grouped.png%22&x-id=GetObject)";
+    width: 100%;
+    display: block;
+    align-items: center;
+  }
+
+  
+.productleft{
+    /* height: 190px; */
+    width: 32%;
+    align-items: flex-start;
+  }
+  
+  .productmiddle{
+    /* height: 210px; */
+    width: 32%;
+    align-items: center;
+  }
+  
+  .productright{
+    /* height: 190px; */
+    width: 32%;
+    align-items: flex-end;
+  }
+
+  .invite{
+      display: block;
+  }
+  .inviteimg {
+    width: 60%;
+    margin-right: 5%;
+    margin-right: 5%;
+  }
+
+  .settingsimg {
+    width: 15%;
+  }
+  
